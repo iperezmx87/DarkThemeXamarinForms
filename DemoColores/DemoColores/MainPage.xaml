@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DemoColores.MainPage"
+             BackgroundColor="{DynamicResource pageBackgroundColor}">
+
+    <StackLayout>
+
+        <Frame BackgroundColor="{DynamicResource frameBackgroundColor}"
+               HasShadow="true"
+               Padding="30"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="FillAndExpand"
+               Margin="10"
+               x:Name="fraContenedor">
+            <!--<Label Text="Hola a todos, soy claro y oscuro"
+                   FontSize="24"
+                   TextColor="{DynamicResource frameTextColor}"></Label>-->
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
